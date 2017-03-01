@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@color/Background"
+    android:id="@+id/fragmentOneMainLayout">
+    <EditText
+        android:inputType="text"
+        android:layout_width="wrap_content"
+        android:maxLines="1"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:width="330dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/ActivityChangeShowNameField"
+        android:hint="@string/ActivityNameFieldHint"
+        android:backgroundTint="@color/TextBackgroundTint"
+        android:background="@color/TextBackground"
+        android:textColor="@color/DkGray" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="wrap_content"
+        android:lines="8"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:minHeight="20dp"
+        android:width="330dp"
+        android:id="@+id/ActivityChangeShowTextField"
+        android:layout_below="@id/ActivityChangeShowNameField"
+        android:hint="@string/ActivityTextFieldHint"
+        android:backgroundTint="@color/TextBackgroundTint"
+        android:background="@color/TextBackground"
+        android:textColor="@color/DkGray" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/ButtonsWrapper">
+        <Button
+            android:text=" "
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/Delete"
+            android:layout_above="@+id/ChangeReminderDateTime"
+            android:textColor="@color/DkGray"
+            android:id="@+id/ButtonDelete" />
+        <Button
+            android:text=" "
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/Clock"
+            android:textColor="@color/DkGray"
+            android:id="@+id/ButtonSetReminder"
+            android:layout_marginLeft="40dp" />
+        <Button
+            android:text=" "
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/Checkmark"
+            android:textColor="@color/DkGray"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/ButtonSaveEdit" />
+    </LinearLayout>
+</RelativeLayout>

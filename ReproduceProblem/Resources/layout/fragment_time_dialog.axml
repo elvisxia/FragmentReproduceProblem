@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@color/Background"
+    android:id="@+id/fragmentThreeMainLayout">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="true"
+        android:text="@string/DialogTimeText"
+        android:id="@+id/DialogTimeHelper"
+        android:textColor="@color/DkGray"
+        android:layout_above="@+id/ActivityEditTimeField"
+        android:layout_marginBottom="15dp" />
+    <TimePicker
+        android:id="@+id/ActivityEditTimeField"
+        android:layout_width="match_parent"
+        android:layout_height="250.0dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/BackgroundContrast" />
+<!--   android:layout_above="@id/ActivityTimeField" />
+    <TimePicker
+        android:id="@+id/ActivityDateField"
+        android:layout_width="match_parent"
+        android:layout_height="150.0dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/BackgroundContrast"
+        android:layout_above="@id/ActivityTimeField" />
+        TODO:Create own timepicker for one line, or make two things for it
+        -->
+    <Button
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/ButtonBackground"
+        android:textColor="@color/DkGray"
+        android:id="@+id/DialogButtonEnd" />
+</RelativeLayout>

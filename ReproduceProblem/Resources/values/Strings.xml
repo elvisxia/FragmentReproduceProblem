@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">ReproduceProblem</string>
+  <!--LANGUAGE SPECIFIC STRINGS-->
+  <string name="TaskFirstStepText">First, name your activity</string>
+  <string name="ButtonText">Click me!</string>
+  <string name="FirstStepText">Enter task name:</string>
+  <string name="SecondStepText">Enter task text:</string>
+  <string name="ThirdStepText">Enter reminder date:</string>
+  <string name="FourthStepText">Enter reminder time:</string>
+  <string name="DialogDateText">Change reminder date:</string>
+  <string name="DialogTimeText">Change reminder time:</string>
+  <string name="ActivityNameFieldHint">Type here, you thickard!</string>
+  <string name="ActivityTextFieldHint">Text here, you thickard!</string>
+  <string name="ActivityDateFieldHint">Date here, you thickard!</string>
+</resources>
